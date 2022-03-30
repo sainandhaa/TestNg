@@ -9,7 +9,7 @@ public class SkipATestCase {
 	public void startacar() {
 		System.out.println("Start the Car");
 	}
-	@Test(priority=5,enabled = false)
+	@Test(priority=5)
 	public void playmusic() {
 		System.out.println("play the music");
 	}
